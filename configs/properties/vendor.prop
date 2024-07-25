@@ -267,6 +267,9 @@ ro.apk_verity.mode=2
 # Gatekeeper
 vendor.gatekeeper.is_security_level_spu=0
 
+# Gatekeeper
+vendor.gatekeeper.is_security_level_spu=0
+
 # Graphics
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
