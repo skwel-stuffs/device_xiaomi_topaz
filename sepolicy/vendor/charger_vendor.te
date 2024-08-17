@@ -1,5 +1,6 @@
 # Make charger_vendor permissive
 userdebug_or_eng(`
+  permissive charger;
   permissive charger_vendor;
 ')
 
