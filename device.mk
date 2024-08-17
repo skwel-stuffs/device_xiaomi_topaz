@@ -160,6 +160,9 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
+# Dex/ART optimization
+DONT_DEXPREOPT_PREBUILTS := true
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4.vendor \
