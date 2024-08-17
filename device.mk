@@ -401,6 +401,7 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     FrameworksResTopaz \
+    NotchBarKiller \
     SettingsProviderResTopaz \
     SettingsResTopaz \
     SettingsOverlayM7G \
