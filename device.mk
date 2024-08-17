@@ -411,7 +411,9 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon \
-    WifiResTarget
+    WifiResTarget \
+    WifiResTopaz
+
 
 # Overlays Lineage
 DEVICE_PACKAGE_OVERLAYS += \
