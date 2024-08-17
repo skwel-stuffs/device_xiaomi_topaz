@@ -13,6 +13,7 @@ persist.wm.enable_remote_keyguard_animation=0
 ro.surface_flinger.supports_background_blur=0
 persist.sys.sf.disable_blurs=0
 ro.sf.blurs_are_expensive=0
+ro.sf.use_latest_hwc_vsync_period=0
 
 # Media
 vendor.media.target_variant=_khaje_v0
