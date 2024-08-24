@@ -16,3 +16,6 @@ ro.vendor.radio.features_common=3
 
 # Skia tracing
 debug.hwui.skia_atrace_enabled=false
+
+# VSync
+debug.cpurend.vsync=false
