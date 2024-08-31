@@ -147,6 +147,7 @@ on early-boot
 
 on boot
     write /dev/cpuset/audio-app/cpus 1-2
+    write /dev/cpuset/system-background/cpus 0-2
 
 #Display
     chown system system /sys/class/mi_display/disp-DSI-0/disp_param
