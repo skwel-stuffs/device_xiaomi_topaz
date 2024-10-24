@@ -64,6 +64,9 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
             ;;
+        system_ext/lib/libwfdnative.so | system_ext/lib64/libwfdnative.so )
+            "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
+            ;;
     esac
 }
 
