@@ -24,9 +24,6 @@
 # Fingerprint HAL
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service_lc u:object_r:hal_fingerprint_default_exec:s0
 
-# Health
-/vendor/bin/hw/android\.hardware\.health-service\.xiaomi                u:object_r:hal_health_default_exec:s0
-
 # Mac Address
 /data/vendor/mac_addr(/.*)? u:object_r:vendor_mac_vendor_data_file:s0
 /vendor/bin/nv_mac u:object_r:vendor_wcnss_service_exec:s0
