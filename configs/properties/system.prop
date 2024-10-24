@@ -68,6 +68,8 @@ persist.log.tag.android.vending=E
 
 # Logs (SPAMMY S Log Tags)
 persist.log.tag.AnalyticsService=S
+persist.log.tag.android.hardware.power-service-qti=S
+persist.log.tag.vendor.qti.vibrator=S
 persist.log.tag.KernelCpuUidActiveTimeReader=S
 persist.log.tag.Tracer=S
 persist.log.tag.NearbySharing=S
@@ -81,6 +83,8 @@ persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 persist.log.tag.OpenGLRenderer=S
 persist.log.tag.ultrasound_extn=S
+persist.log.tag.imsd=S
+persist.log.tag.gsl=S
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_khaje_v0.xml
