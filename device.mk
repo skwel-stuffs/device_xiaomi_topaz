@@ -547,7 +547,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti-v2 \
+    android.hardware.thermal@2.0.vendor \
     libpsi.vendor
 
 # Trusted User Interface
