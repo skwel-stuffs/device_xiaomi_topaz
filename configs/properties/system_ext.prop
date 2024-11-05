@@ -17,6 +17,7 @@ ro.sf.use_latest_hwc_vsync_period=0
 
 # Media
 vendor.media.target_variant=_khaje_v0
+media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Radio
 ro.telephony.sim_slots.count=2
