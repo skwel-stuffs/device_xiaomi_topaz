@@ -20,4 +20,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 12 4G
 
+PRIVATE_BUILD_DESC := topaz_global-user 14 UKQ1.230917.001 V816.0.7.0.UMGMIXM release-keys
+BUILD_FINGERPRINT := Redmi/topaz_global/topaz:14/UKQ1.230917.001/V816.0.7.0.UMGMIXM:user/release-keys
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
