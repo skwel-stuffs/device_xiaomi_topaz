@@ -139,7 +139,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true"/>
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
+        <boolean name="hide_enabled_5g_bool" value="true" />
     </carrier_config>
 
     <carrier_config mcc="202" mnc="01">
@@ -2440,7 +2440,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
+        <boolean name="hide_enabled_5g_bool" value="true" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
