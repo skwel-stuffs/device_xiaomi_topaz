@@ -349,6 +349,10 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     task_profiles ProcessCapacityHigh HighPerformance
     onrestart restart audioserver
 
+on property:sys.boot_completed=1
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
 on property:vendor.post_boot.parsed=1
     # Disable process_reclaim
     write /sys/module/process_reclaim/parameters/enable_process_reclaim 0
