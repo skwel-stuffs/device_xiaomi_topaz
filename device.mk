@@ -165,6 +165,9 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 # Dex/ART optimization
 DONT_DEXPREOPT_PREBUILTS := true
 
+# Speed profile services and wifi-service to reduce RAM and storage
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4.vendor \
