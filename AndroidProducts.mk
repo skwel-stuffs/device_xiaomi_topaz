@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_topaz.mk
+    $(LOCAL_DIR)/lineage_topaz.mk

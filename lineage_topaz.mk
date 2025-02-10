@@ -12,9 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/topaz/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := bliss_topaz
+
+# Lunch banner maintainer variable
+RISING_MAINTAINER="Haruki x skwel"
+
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# Set RISING_MAINTAINER for version control 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 685" \
+    RisingMaintainer="Haruki x skwel"
+
+PRODUCT_NAME := lineage_topaz
 PRODUCT_DEVICE := topaz
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
