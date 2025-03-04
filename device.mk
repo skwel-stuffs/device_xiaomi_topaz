@@ -433,11 +433,13 @@ PRODUCT_PACKAGES += \
     WifiResTarget \
     WifiResTopaz
 
-
 # Overlays Lineage
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage \
-    $(LOCAL_PATH)/overlay-bliss
+
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiVoIPFix
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
