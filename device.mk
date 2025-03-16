@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
 # Audio (Dolby Atmos)
-$(call inherit-product, vendor/xiaomi/dolby-atmos/setup.mk)
+#$(call inherit-product, vendor/xiaomi/dolby-atmos/setup.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -644,7 +644,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
 
 # Call the MiuiCamera setup
-$(call inherit-product-if-exists, device/xiaomi/miuicamera-topaz/device.mk)
+#$(call inherit-product-if-exists, device/xiaomi/miuicamera-topaz/device.mk)
 
 # Call the BCR setup
-$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+#$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
