@@ -558,7 +558,4 @@
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">false</bool>
     
-    <!-- media controls -->
-    <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
-
 </resources>
