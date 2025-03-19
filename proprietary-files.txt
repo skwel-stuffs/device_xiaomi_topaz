@@ -1,4 +1,4 @@
-# All blobs below are extracted from topaz V816.0.5.0.UMGMIXM
+# All blobs below are extracted from topaz OS2.0.9.0.VMGMIXM
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
@@ -406,8 +406,7 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libvidhance_ldc.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib/libpiex.so
-vendor/lib64/libpiex.so
+system/lib64/libpiex.so:vendor/lib64/libpiex.so
 
 # Camera Configs
 odm/etc/camera/camerabooster.json
@@ -949,7 +948,6 @@ vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
 # Hotword Enrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
 product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
@@ -1036,7 +1034,6 @@ vendor/etc/init/ipa_fws.rc
 vendor/bin/hw/android.hardware.ir-service.example
 vendor/bin/consumerird
 vendor/etc/init/android.hardware.ir-service.example.rc
-vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml
 vendor/lib64/hw/consumerir.qcom.so
 
 # Keymint
@@ -1527,7 +1524,7 @@ vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.3.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio-V8-ndk.so
+vendor/lib64/vendor.qti.hardware.radio.qtiradio-V9-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so
