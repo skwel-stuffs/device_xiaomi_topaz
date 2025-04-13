@@ -14,16 +14,11 @@ $(call inherit-product, device/xiaomi/topaz/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-
-# Lunch banner maintainer variable
-RISING_MAINTAINER="Haruki x skwel"
-
-# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
-# Set RISING_MAINTAINER for version control 
-# (Optional if builder is setting properties via init_<device>.cpp)
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="Snapdragon 685" \
-    RisingMaintainer="Haruki x skwel"
+AXION_CAMERA_REAR_INFO := 50
+AXION_CAMERA_FRONT_INFO := 13
+AXION_MAINTAINER := skwel
+AXION_PROCESSOR := Snapdragon_685
+BYPASS_CHARGE_SUPPORTED := true
 
 PRODUCT_NAME := lineage_topaz
 PRODUCT_DEVICE := topaz
