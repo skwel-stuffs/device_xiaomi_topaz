@@ -220,6 +220,11 @@ PRODUCT_PACKAGES += \
     libcrypto-v33 \
     libdrm.vendor
 
+# Disable Blur
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.sys.sf.disable_blurs=1 \
+    ro.launcher.blur.appLaunch=0
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
