@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
 # Audio (Dolby Atmos)
-#$(call inherit-product, vendor/xiaomi/dolby-atmos/setup.mk)
+$(call inherit-product, vendor/xiaomi/dolby-atmos/setup.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -222,7 +222,6 @@ PRODUCT_PACKAGES += \
 
 # Disable Blur
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    persist.sys.sf.disable_blurs=1 \
     ro.launcher.blur.appLaunch=0
 
 # Fastbootd
@@ -516,7 +515,8 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libhidlbase_shim
+   libhidlbase_shim \
+   libbase_shim
 
 # Shipping API
 BOARD_SHIPPING_API_LEVEL := 33
