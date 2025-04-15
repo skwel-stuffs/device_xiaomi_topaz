@@ -16,14 +16,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 
 # Lunch banner maintainer variable
-RISING_MAINTAINER="Haruki x skwel"
+#RISING_MAINTAINER="Haruki x skwel"
 
 # Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
 # Set RISING_MAINTAINER for version control 
 # (Optional if builder is setting properties via init_<device>.cpp)
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="Snapdragon 685" \
-    RisingMaintainer="Haruki x skwel"
+#PRODUCT_BUILD_PROP_OVERRIDES += \
+#    RisingChipset="Snapdragon 685" \
+#    RisingMaintainer="Haruki x skwel"
 
 PRODUCT_NAME := lineage_topaz
 PRODUCT_DEVICE := topaz
