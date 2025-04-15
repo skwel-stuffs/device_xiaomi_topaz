@@ -1,0 +1,86 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "SM6225-Playground/vendor_qcom_opensource_agm",
+        "target_path":  "hardware/qcom-caf/sm6225/audio/agm",
+        "revision":     "lineage-22",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SM6225-Playground/vendor_qcom_opensource_arpal-lx",
+        "target_path":  "hardware/qcom-caf/sm6225/audio/pal",
+        "revision":     "lineage-22",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SM6225-Playground/hardware_qcom_audio-ar",
+        "target_path":  "hardware/qcom-caf/sm6225/audio/primary-hal",
+        "revision":     "lineage-22",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SM6225-Playground/vendor_qcom_opensource_data-ipa-cfg-mgr",
+        "target_path":  "hardware/qcom-caf/sm6225/data-ipa-cfg-mgr",
+        "revision":     "lineage-22",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SM6225-Playground/vendor_qcom_opensource_dataipa",
+        "target_path":  "hardware/qcom-caf/sm6225/dataipa",
+        "revision":     "lineage-22",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SM6225-Playground/hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/sm6225/display",
+        "revision":     "lineage-22",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SM6225-Playground/hardware_qcom_media",
+        "target_path":  "hardware/qcom-caf/sm6225/media",
+        "revision":     "lineage-22",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "skwel-stuffs/device_xiaomi_topaz-kernel",
+        "target_path":  "device/xiaomi/topaz-kernel",
+        "revision":     "fifteen",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "skwel-private/vendor_xiaomi_topaz",
+        "target_path":  "vendor/xiaomi/topaz",
+        "revision":     "15_qpr2",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "skwel-stuffs/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "fifteen",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "skwel-stuffs/android_device_xiaomi_sepolicy",
+        "target_path":  "device/xiaomi/sepolicy",
+        "revision":     "fifteen",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "skwel-stuffs/hardware_qcom-caf_common",
+        "target_path":  "hardware/qcom-caf/common",
+        "revision":     "fifteen",
+        "clone-depth":  "1"
+    }
+]

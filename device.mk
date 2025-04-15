@@ -627,7 +627,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
 
 # Call the MiuiCamera setup
-#$(call inherit-product-if-exists, device/xiaomi/miuicamera-topaz/device.mk)
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-topaz/device.mk)
 
 # Call the BCR setup
 #$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
