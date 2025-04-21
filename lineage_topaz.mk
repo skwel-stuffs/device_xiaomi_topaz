@@ -25,6 +25,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingChipset="Snapdragon 685" \
     RisingMaintainer="Haruki x skwel"
 
+# Axion CPU Flags
+AXION_CPU_SMALL_CORES := 0,1,2,3,4,5
+AXION_CPU_BIG_CORES := 6,7
+
+
 PRODUCT_NAME := lineage_topaz
 PRODUCT_DEVICE := topaz
 PRODUCT_MANUFACTURER := Xiaomi
