@@ -139,3 +139,5 @@ ro.hardware.wlan.vendor=qcom
 # LMKD
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=15
+ro.lmk.debug=false
+ro.lmk.log_stats=false
