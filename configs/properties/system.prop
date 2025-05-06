@@ -38,6 +38,8 @@ persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 ro.iorapd.enable=false
 
 # Logs (SPAMMY E Log Tags)
+persist.log.tag.AbstractServiceBroker=S
+persist.log.tag.GmsServiceBroker=W
 persist.log.tag.ApexManager=E
 persist.log.tag.ApexManagerTiming=E
 persist.log.tag.CoreBackPreview=E
