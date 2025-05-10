@@ -12,13 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/topaz/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-AXION_CAMERA_REAR_INFO := 50
-AXION_CAMERA_FRONT_INFO := 13
-AXION_MAINTAINER := skwel
-AXION_PROCESSOR := Snapdragon_685
-BYPASS_CHARGE_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
+INFINITY_MAINTAINER := "skwel"
 
 PRODUCT_NAME := lineage_topaz
 PRODUCT_DEVICE := topaz
