@@ -143,3 +143,11 @@ ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=15
 ro.lmk.debug=false
 ro.lmk.log_stats=false
+
+# InfinityX
+
+ro.product.marketname=Redmi Note 12 4G
+ro.infinity.soc=Snapdragon 685
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2400, 120 Hz
+ro.infinity.camera=50MP + 8MP + 2MP
